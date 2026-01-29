@@ -1,13 +1,20 @@
-base: '/financetrackerv2/'
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+
+export default defineConfig({
+  plugins: [react()],
+  base: '/financetrackerv2/'
+})
 ```
-5. Commit changes
 
-### **Step 2: Wait 2 Minutes**
+6. Commit: `Fix vite config`
 
-GitHub Actions will rebuild automatically with the correct path.
+---
 
-### **Step 3: Try URL Again**
+## **That's It!**
 
-Your URL should be:
+The file was incomplete. This complete version should work. 
+
+Wait 2 minutes for the build, then check your URL:
 ```
 https://djordje050182.github.io/financetrackerv2/
