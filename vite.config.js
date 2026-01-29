@@ -7,14 +7,12 @@ export default defineConfig({
 })
 ```
 
-6. Commit: `Fix vite config`
-
----
-
-## **That's It!**
-
-The file was incomplete. This complete version should work. 
-
-Wait 2 minutes for the build, then check your URL:
+### **Step 4: Make Sure It Looks Exactly Like This:**
 ```
-https://djordje050182.github.io/financetrackerv2/
+Line 1: import { defineConfig } from 'vite'
+Line 2: import react from '@vitejs/plugin-react'
+Line 3: (blank)
+Line 4: export default defineConfig({
+Line 5:   plugins: [react()],
+Line 6:   base: '/financetrackerv2/'
+Line 7: })
